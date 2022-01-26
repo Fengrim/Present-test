@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Presentation</title>
+<meta name="author" content="(Fredrik Killi)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Presentation</h1><h2 class="author">Fredrik Killi</h2>
+</section>
+<section id="sec-table-of-contents"><div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#/slide-orge0ca2aa">Intro</a></li>
+<li><a href="#/slide-org087d7d3">Slides and sub-slides</a></li>
+<li><a href="#/slide-org964b8d9">Source block test</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section>
+<section id="slide-orge0ca2aa">
+<h2 id="orge0ca2aa">Intro</h2>
+<ol>
+<li>Point one</li>
+<li>Point two</li>
+<li>Point three</li>
+<li>Point four</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org087d7d3">
+<h2 id="org087d7d3">Slides and sub-slides</h2>
+<div class="outline-text-2" id="text-org087d7d3">
+</div>
+</section>
+<section id="slide-orge74a3f9">
+<h3 id="orge74a3f9">Image</h3>
+
+<div id="orgbf35563" class="figure">
+<p><img src="https://wiki.installgentoo.com/images/a/a0/Icon_Emacs.png" alt="Icon_Emacs.png" width="50%" align="center" />
+</p>
+</div>
+</section>
+<section id="slide-org8be429d">
+<h3 id="org8be429d">Markup</h3>
+<ul>
+<li class="fragment roll-in"><b>Bold</b></li>
+<li class="fragment roll-in"><i>Italics</i></li>
+<li class="fragment roll-in"><span class="underline">Underline</span></li>
+
+</ul>
+</section>
+<section id="slide-orgbb9e42b">
+<h3 id="orgbb9e42b">Table and speaker notes</h3>
+<aside class="notes">
+<p>
+My speaker notes are put here
+</p>
+
+</aside>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Test</th>
+<th scope="col" class="org-left">Test</th>
+<th scope="col" class="org-left">Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Text</td>
+<td class="org-left">Bla</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Här</td>
+<td class="org-left">Boo</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+</section>
+<section>
+<section id="slide-org964b8d9">
+<h2 id="org964b8d9">Source block test</h2>
+<div class="outline-text-2" id="text-org964b8d9">
+</div>
+</section>
+<section id="slide-org3c5c400">
+<h3 id="org3c5c400">Emacs-lisp</h3>
+<div class="org-src-container">
+
+<pre  class="src src-emacs-lisp"   ><code trim><span style="color: #51afef;">(</span><span style="color: #a9a1e1;">+</span> <span style="color: #da8548; font-weight: bold;">4</span> <span style="color: #da8548; font-weight: bold;">2</span> <span style="color: #da8548; font-weight: bold;">5</span><span style="color: #51afef;">)</span>
+</code></pre>
+</div>
+
+</section>
+<section id="slide-orgf25cf9b">
+<h3 id="orgf25cf9b">Python syntax highlighting</h3>
+<div class="org-src-container">
+
+<pre  class="src src-python"   ><code trim><span style="color: #51afef; font-style: italic;">def</span> <span style="color: #c678dd;">f</span>(x:
+    <span style="color: #51afef; font-style: italic;">return</span> x + <span style="color: #da8548; font-weight: bold;">1</span>
+<span style="color: #c678dd;">print</span> f(<span style="color: #da8548; font-weight: bold;">5</span>)
+</code></pre>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes]
+});
+
+</script>
+</body>
+</html>
